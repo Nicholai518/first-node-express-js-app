@@ -1,0 +1,29 @@
+{
+  "name": "first-node-express-js-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nicholai518/first-node-express-js-app.git"
+  },
+  "author": "Nicholas Pazienza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nicholai518/first-node-express-js-app/issues"
+  },
+  "homepage": "https://github.com/Nicholai518/first-node-express-js-app#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
